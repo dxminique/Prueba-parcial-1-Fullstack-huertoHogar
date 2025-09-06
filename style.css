@@ -26,21 +26,69 @@ nav img{
     display: flex;
 }
 
+/*logo y contenido que esta en el header antes del nav*/
+.logoP{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoP img{
+    width: 100px;
+    height: 100px;
+}
+
+ 
+/*parte de la seccion de productos*/
+
 .cards{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    border-radius: 15px;
+    justify-content: space-between;
 }
 
 .cards img{
     width: 200px;
     height: 200px;
+   justify-content: center;
 }
 
-.login{
+.cards h3 {
+    text-align: center;
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+.cards p{
+    text-align: center;
+}
+
+/*seccion de noticias en la pagina de inicio*/
+#blog{
+    margin: 0 auto;
+    gap: 20px;
+    display: flex
+}
+
+#blog img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*seccion de contacto y redes sociales*/
+#contacto{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+/*parte de la pagina de registro del usuario*/
+.registro{
   
   position: relative;
   padding: 60px;
-  background: var(--rosaOscuro);
   display: flex;
   flex-direction: column;
   width: 380px;
@@ -56,7 +104,7 @@ nav img{
 
 }
 
-.login h2{
+.registro h2{
   position: relative;
   width: 100%;
   text-align: center;
@@ -65,18 +113,18 @@ nav img{
   margin-bottom: 10px;
 }
 
-.login .inputBox{
+.registro .inputBox{
   position: relative;
 }
 
-.login .inputBox input{
+.registro .inputBox input{
   position: relative;
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 10px;
 }
 
-.login .inputBox #btn{
+.registro .inputBox #btn{
   position: relative;
   border: none;
   outline: none;
@@ -87,12 +135,12 @@ nav img{
   margin-top: 10px;
 }
 
-.login .group{
+.registro .group{
   display: flex;
   justify-content: space-between;
 }
 
-.login .group a{
+.registro .group a{
   text-decoration: none;
   font-size: 1.00em;
   font-weight: 200;
@@ -100,6 +148,7 @@ nav img{
   margin-top: 5px;;
 }
 
+/*para que los logosa de redes sociales estan abajito y redondos*/
 
 .logo{
  align-items: center;
@@ -134,6 +183,7 @@ nav img{
   
 }
 
+/*parte de la pagina de inicio de sesion*/
 
 .inicio{
   position: relative;
@@ -196,6 +246,10 @@ nav img{
   margin-top: 5px;
 }
 
+
+/*pie de pagina*/
 footer{
     text-align: center;
 }
+
+
