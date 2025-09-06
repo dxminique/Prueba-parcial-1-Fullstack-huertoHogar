@@ -38,7 +38,7 @@ nav img{
     height: 100px;
 }
 
- 
+
 /*parte de la seccion de productos*/
 
 .cards{
@@ -51,7 +51,7 @@ nav img{
 .cards img{
     width: 200px;
     height: 200px;
-   justify-content: center;
+    justify-content: center;
 }
 
 .cards h3 {
