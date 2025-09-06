@@ -26,6 +26,16 @@ nav img{
     display: flex;
 }
 
+.cards{
+    display: flex;
+    gap: 10px;
+}
+
+.cards img{
+    width: 200px;
+    height: 200px;
+}
+
 .login{
   
   position: relative;
@@ -33,7 +43,7 @@ nav img{
   background: var(--rosaOscuro);
   display: flex;
   flex-direction: column;
-  width: 420px;
+  width: 380px;
   margin: auto;
   border-radius: 20px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 1);
@@ -186,3 +196,6 @@ nav img{
   margin-top: 5px;
 }
 
+footer{
+    text-align: center;
+}
