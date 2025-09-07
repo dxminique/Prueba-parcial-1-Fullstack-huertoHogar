@@ -75,8 +75,11 @@ nav a:hover{
 
 /*seccion primera del inicio*/
 .ini{
-  justify-content: center;
-  align-items: center;
+  background-color: #cb8858;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
 }
 
 /*seccion de mision vbision en el index*/
@@ -304,7 +307,8 @@ margin-bottom:10px;
   font-size: 1.00em;
   font-weight: 200;
   color: #2E8B57;
-  margin-top: 5px;;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*para que los logos de redes sociales estan abajito y redondos*/
@@ -313,7 +317,7 @@ margin-bottom:10px;
 .logo{
 align-items: center;
   display: flex;
-  padding-top: 10px;
+  padding-top: 13px;
   gap: 20px;
 
 }
@@ -339,6 +343,7 @@ align-items: center;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
+  margin-top: 10px;
   
 }
 
@@ -414,8 +419,8 @@ position: relative;
   font-size: 1.00em;
   font-weight: 200;
   color: #2E8B57;
-  margin-top: 5px;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
