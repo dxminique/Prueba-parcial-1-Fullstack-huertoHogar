@@ -161,7 +161,7 @@ nav a:hover{
   background:#fff; 
   border-radius:16px; 
   padding:16px;
- box-shadow: 0 25px 50px rgb(56, 136, 97);
+box-shadow: 0 25px 50px rgb(56, 136, 97);
   transition:.15s;
   width: 200px;
   height: 400px;
@@ -192,8 +192,12 @@ margin-bottom:10px;
 #blog{
     margin: 0 auto;
     gap: 20px;
+    display: flex;
     margin-bottom: 15px;
+<<<<<<< HEAD
     margin-top: 15px;
+=======
+>>>>>>> 0c3e8288a19b98a8d84a3bdd1e2ed4e658201b7f
 }
 
 #blog img{
