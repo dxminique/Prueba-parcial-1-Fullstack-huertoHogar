@@ -100,7 +100,7 @@ nav a:hover{
   overflow: hidden;
   border-radius: 14px;
   background: #fff;
-  box-shadow: 0 8px 20px rgba(0,0,0,.1);
+  box-shadow: 0 8px 20px #8B4513;
 }
 
 
@@ -144,7 +144,7 @@ nav a:hover{
 
 
 
-
+/*seccion de productos  y catalogos en el index*/
 
 
 .cards{
@@ -161,7 +161,7 @@ nav a:hover{
   background:#fff; 
   border-radius:16px; 
   padding:16px;
-  box-shadow:0 10px 24px rgba(0,0,0,.08);
+ box-shadow: 0 25px 50px rgb(56, 136, 97);
   transition:.15s;
   width: 200px;
   height: 400px;
@@ -249,7 +249,7 @@ margin-bottom:10px;
   width: 380px;
   margin: auto;
   border-radius: 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 1);
+  box-shadow: 0 25px 50px rgb(56, 136, 97);
   backdrop-filter: blur(15px);
   align-items: center;
   margin-top: 60px;
@@ -273,9 +273,10 @@ margin-bottom:10px;
   position: relative;
   padding: 10px 20px;
   border-radius: 5px;
-  margin-top: 10px; 
+  margin-top: 5px; 
   position: relative;
   border: 1px solid #ccc;
+  border-color: green;
 }
 
 .registro .inputBox #btn{
@@ -309,6 +310,12 @@ margin-bottom:10px;
   color: #2E8B57;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.registro span{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 /*para que los logos de redes sociales estan abajito y redondos*/
@@ -360,7 +367,7 @@ align-items: center;
   width: 300px;
   margin: auto;
   border-radius: 20px;
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 1);
+  box-shadow: 0 25px 50px rgb(56, 136, 97);
   backdrop-filter: blur(15px);
   align-items: center;
   margin-top: 30px;
@@ -386,9 +393,10 @@ position: relative;
   position: relative;
   padding: 10px 20px;
   border-radius: 5px;
-  margin-top: 10px;  
+  margin-top: 5pxpx;  
   position: relative;
   border: 1px solid #ccc;
+  border-color: green;
 }
 
 .inicio .inputBox #btn{
@@ -423,6 +431,12 @@ position: relative;
   margin-bottom: 10px;
 }
 
+.inicio span{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 
 /*pie de pagina*/
 footer{
