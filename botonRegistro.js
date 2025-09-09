@@ -9,6 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const contraseña = document.getElementById("password").value.trim();
         const confirmar = document.getElementById("confirmar").value.trim();
 
+
+        console.log(nombre)
+        console.log(correo)
+        console.log(telefono)
+        console.log(contraseña)
+        console.log(confirmar)
+
           if(!nombre || !correo || !telefono || !contraseña || !confirmar) {
             alert("¡Todos los campos son obligatorios!");
             return;
@@ -26,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
           }
 
           if (contraseña !== confirmar) {
-            alert("las contraseñas no coinsiden");
+            alert("las contraseñas no coinciden");
             return;
           }
 
