@@ -33,6 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
           alert(`Bienvenido/a ${nombre}, tu registro fue exitoso.`);
 
 
-         form.reset();
+        form.reset();
     })
 }) 
