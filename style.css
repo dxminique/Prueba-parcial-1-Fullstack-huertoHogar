@@ -254,7 +254,7 @@ margin-bottom:10px;
   display: flex;
   flex-direction: column;
   width: 380px;
-  margin: auto;
+  margin:  10px auto;
   border-radius: 20px;
   box-shadow: 0 25px 50px rgb(56, 136, 97);
   backdrop-filter: blur(15px);
@@ -287,6 +287,7 @@ margin-bottom:10px;
 }
 
 .registro .inputBox #btn{
+  display: block;
   position: relative;
   border: none;
   outline: none;
@@ -297,6 +298,7 @@ margin-bottom:10px;
   margin-top: 10px;
   background-color: #2E8B57;
   color: aliceblue;
+  margin: 10px auto;
 }
 
 .registro .inputBox #btn:hover {

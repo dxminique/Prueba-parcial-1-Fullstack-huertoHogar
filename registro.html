@@ -27,43 +27,47 @@
                 <li><a href="index.html#noticias">Blog</a></li>
                 <li><a href="index.html#contacto">Contacto</a></li>
                 <a href="inicioSesion.html">
+                <img src="fotos/carrito.png" alt="inicio sesion">
+                </a>
+                <a href="inicioSesion.html">
                 <img src="fotos/inicio.png" alt="inicio sesion">
                 </a>
             </ul>
         </nav>
     </header>
-    
-<div class="registro">
+
+ <form id="formRegistro" novalidate>   
+ <div class="registro">
         <h2>Registrarse</h2>
-        <form id="formRegistro" novalidate>
+       
         <div class="inputBox">
                 <span>Nombre</span>
-                <input type="text" placeholder="Nombre de usuario" required>
+                <input type="text" id="nombre" placeholder="Nombre de usuario" required>
             </div>
         
             <div class="inputBox"> 
                 <span>Correo</span>
-                <input type="email" placeholder="Correo electronico"required>
+                <input type="email" id="correo" placeholder="Correo electronico"required>
             </div>
 
             <div class="inputBox">
                 <span>Teléfono</span>
-                <input type="number" placeholder="Ingrese su celular"required>
+                <input type="tel"  id="telefono" placeholder="Ingrese su celular"required>
             </div>
 
             <div class="inputBox">
                 <span>Contraseña</span>
-                <input type="password" placeholder="Contraseña"required>
+                <input type="password" id="password" placeholder="Contraseña"required>
             </div>
 
             
             <div class="inputBox">
                 <span>Confirmar Contraseña</span>
-                <button type="submit" id="btn">Registrarse</button>
+                <input type="password" id="confirmar" placeholder="Confirmar contraseña"required>              
             </div>
 
             <div class="inputBox">
-                <input type="submit" value="Registrarse" id="btn">
+               <button type="submit" id="btn">Registrarse</button>
             </div>
 
             <div class="group">
@@ -83,6 +87,8 @@
         <p>&copy; 2025 HuertoHogar - Todos los derechos reservados</p>
         <p>Síguenos en redes sociales</p>
     </footer>
+
+    <script src="botonRegistro.js"></script>
     
 </body>
 </html>
