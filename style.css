@@ -154,6 +154,9 @@ nav a:hover{
   align-items:start; 
   margin-top:18px;
   margin-bottom: 15px;
+  padding: 35px;
+  background-color: #8B4513;
+  border-radius: 14px;
     
 }
 
@@ -161,7 +164,7 @@ nav a:hover{
   background:#fff; 
   border-radius:16px; 
   padding:16px;
-box-shadow: 0 25px 50px rgb(56, 136, 97);
+  box-shadow: 0 25px 50px rgb(56, 136, 97);
   transition:.15s;
   width: 200px;
   height: 400px;
@@ -190,14 +193,14 @@ margin-bottom:10px;
 
 /*seccion de noticias en la pagina de inicio*/
 #blog{
+  padding: 32px;
+  background-color: #2E8B57;
     margin: 0 auto;
     gap: 20px;
     display: flex;
     margin-bottom: 15px;
-<<<<<<< HEAD
     margin-top: 15px;
-=======
->>>>>>> 0c3e8288a19b98a8d84a3bdd1e2ed4e658201b7f
+    border-radius: 14px;
 }
 
 #blog img{
