@@ -76,68 +76,44 @@ nav a:hover{
   border-radius: 10px;
   padding: 20px;
   margin-top: 15px;
+  box-shadow: #333333;
 }
 
-/*seccion de mision vbision en el index*/
+/*seccion de mision vision en el index*/
 
 .mision-vision {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  width: min(1100px, 92vw);
-  margin: 30px auto;
-  align-items: stretch;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
 }
 
 
-.izquierda,
-.derecha {
-  position: relative;
-  overflow: hidden;
-  border-radius: 14px;
-  background: #fff;
-  box-shadow: 0 8px 20px #8B4513;
+.bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 40px;
 }
 
-
-.card-mision,
-.card-vision {
-  position: relative;
-  z-index: 2;
-  padding: 22px;
-}
-.card-mision h2,
-.card-vision h2 {
-  color: #8B4513;
-  margin-bottom: 8px;
-}
-.card-mision p,
-.card-vision p {
-  color: #333333;
+.bloque .texto {
+  flex: 1;
+  background: #fff588;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-
-.vistaDere,
-.vistaIzque {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-  transition: opacity .3s ease;
-  filter: brightness(.85);
+.bloque .imagen {
+  flex: 1;
 }
 
-.vistaDere { background-image: url("fotos/vision.jpg"); }
-.vistaIzque { background-image: url("fotos/mision.jpg"); }
-
-
-.mision-vision:has(.card-mision:hover) .derecha .vistaIzque{ opacity:1; transform:scale(1); }
-.mision-vision:has(.card-mision:hover) .derecha .card-vision{ opacity:0; }
-
-.mision-vision:has(.card-vision:hover) .izquierda .vistaDere{ opacity:1; transform:scale(1); }
-.mision-vision:has(.card-vision:hover) .izquierda .card-mision{ opacity:0; }
-
+.bloque .imagen img {
+  height: 250px;
+  width: 600px;
+  border-radius: 12px;
+  object-fit: cover;
+}
 
 
 /*seccion de productos  y catalogos en el index*/
@@ -157,10 +133,10 @@ nav a:hover{
 }
 
 .cards article, .card{
-  background:#fff; 
+  background:#cad0b8; 
   border-radius:16px; 
   padding:16px;
-  box-shadow: 0 25px 50px rgb(56, 136, 97);
+  box-shadow: 0 25px 50px rgb(213, 180, 63);
   transition:.15s;
   width: 200px;
   height: 400px;
@@ -190,7 +166,7 @@ margin-bottom:10px;
 /*seccion de noticias en la pagina de inicio*/
 #blog{
   padding: 32px;
-  background-color: #2E8B57;
+  background-color: #0cb957;
     margin: 0 auto;
     gap: 20px;
     display: flex;
@@ -206,7 +182,7 @@ margin-bottom:10px;
 
 
 #blog article{ 
-    background:#fff; 
+    background:#fff588; 
     border-radius:14px; 
     padding:16px; 
     box-shadow:0 8px 20px rgba(0,0,0,.08); 
@@ -215,7 +191,7 @@ margin-bottom:10px;
 
 /*seccion de contacto y redes sociales*/
 #contacto {
-  background-color: #2E8B57; 
+  background-color: #0cb957; 
   color: #F7F7F7;
   border-radius: 14px;
   padding: 30px;
