@@ -23,21 +23,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
           const regexCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
           if (!regexCorreo.test(correo)){
-            alert("ingreasa un correo válido.");
+            alert("Ingreasa un correo válido.");
             return;
           }
 
           const regexTelefono = /^[0-9]{8,15}$/;
           if (!regexTelefono.test(telefono)) {
-            alert(" ingresa un numero telefonico valido.")
+            alert(" Ingresa un numero telefonico valido.")
           }
 
           if (contraseña !== confirmar) {
-            alert("las contraseñas no coinciden");
+            alert("Las contraseñas no coinciden");
             return;
           }
 
-          alert(`Bienvenido/a ${nombre}, tu registro fue exitoso.`);
+          alert(`Bienvenido/a ${nombre}, Tu registro fue exitoso.`);
 
 
         form.reset();
