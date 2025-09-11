@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 const formLogin = document.getElementById("formInicioSesion");
 
-  // Usuario fijo
+
 const userDefault = {
     correo: "admin@huerto.cl",
     contrasena: "1234"
@@ -15,9 +15,10 @@ formLogin.addEventListener("submit", (e) => {
 
     if (correo === userDefault.correo && contrasena === userDefault.contrasena) {
     alert(" Bienvenido Administrador");
-      window.location.href = "index.html"; // redirige si es correcto
+      window.location.href = "index.html"; 
     } else {
     alert(" Correo o contraseña incorrectos");
     }
 });
+
 });
