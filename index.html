@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+<!-- [POSITIVO] Buena implementación de metadatos y estructura básica HTML5 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- [POSITIVO] Buena práctica al cargar fuentes web -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
-
-
-    
     <title>Huerto_Hogar</title>
 </head>
 <body>
+    <!-- [POSITIVO] Buena estructura semántica con header -->
     <header>
+        <!-- [MEJORAR] Considerar usar figure para la imagen del logo -->
         <div class="logoP">
             <a href="index.html">
             <img class="" src="fotos/logo huerto.png" alt="logo huertohogar">
@@ -20,6 +20,7 @@
             <p>La frescura del campo en tu mesa</p>
             </a>
         </div>
+        <!-- [MEJORAR] Los enlaces de carrito e inicio de sesión deberían estar dentro de <li> para mantener consistencia -->
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -27,6 +28,7 @@
                 <li><a href="#productos">Productos</a></li>  
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <!-- [MEJORAR] Estos enlaces deberían estar dentro de <li> -->
                 <a href="inicioSesion.html">
                 <img src="fotos/carrito.png" alt="inicio sesion">
                 </a>
@@ -104,10 +106,13 @@
         </section>
 
 
+        <!-- [MEJORAR] Esta sección debería usar mejor estructura semántica: main > section > article. La imagen debería estar dentro de figure -->
         <section id="blog" >
             <h2>Blog y Noticias</h2>
+                <!-- [MEJORAR] La imagen debería estar dentro de un contenedor semántico figure con figcaption -->
                 <img src="fotos/noticia logo.png" alt="logo en el blog noticia">
                     <div>
+                        <!-- [POSITIVO] Buen uso de article para cada entrada del blog -->
                         <article>
                             <h3>Beneficios de consumir productos locales</h3>
                             <p>Conectar con agricultores locales reduce la huella de carbono...</p>
@@ -120,23 +125,22 @@
                     </div>    
         </section>
 
+            <!-- [MEJORAR] Esta sección debería usar address para la información de contacto -->
             <section id="contacto">
-
+                <!-- [MEJORAR] Usar etiqueta address para información de contacto -->
                 <div> 
                     <h2>Contáctanos</h2>        
                     <p>Email: contacto@huertohogar.cl</p>
                     <p>Teléfono: +56 9 1234 5678</p>
                 </div>
 
-            <div>            
+                <!-- [MEJORAR] Las redes sociales deberían ser enlaces y usar una lista ul -->
+                <div>            
                     <h2>Síguenos en redes sociales</h2>
                     <p>Huerto_Hogar en Instagram</p>
                     <p>HUERTO HOGAR🥬 en Facebook </p>
-
                     <p>Huerto a tu Hogar en TikTok</p>
-
                 </div>
-
             </section>
     </main>
 

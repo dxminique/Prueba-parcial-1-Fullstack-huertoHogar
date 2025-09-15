@@ -1,8 +1,10 @@
+// [POSITIVO] Buena práctica esperar a que el DOM esté cargado
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("formRegistro");
 
+    // [POSITIVO] Buen manejo del evento submit del formulario
     form.addEventListener("submit", (e) => {
-
+        // [POSITIVO] Buena práctica usar trim() para limpiar espacios
         const nombre = document.getElementById("nombre").value.trim();
         const correo = document.getElementById("correo").value.trim();
         const telefono = document.getElementById("telefono").value.trim();
@@ -10,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const confirmar = document.getElementById("confirmar").value.trim();
 
 
+        // [MEJORAR] Eliminar console.logs de producción
         console.log(nombre)
         console.log(correo)
         console.log(telefono)

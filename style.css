@@ -1,13 +1,16 @@
+/* [POSITIVO] Buena práctica al definir estilos base para el documento */
 body{
     font-family:"Montserrat", sans-serif;
     background-color: #F7F7F7;
+    /* [MEJORAR] El margin debería ser 0 o un valor específico */
     margin: 1;
     color: #333333;
 }
 
+/* [POSITIVO] Agrupación eficiente de selectores para encabezados */
 h1,h2,h3{
     font-family:"Playfair Display", serif;
-  color: #8B4513; 
+    color: #8B4513; 
 }
 
 main button:hover{

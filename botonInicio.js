@@ -1,3 +1,4 @@
+// [POSITIVO] Uso correcto de DOMContentLoaded para asegurar carga del DOM
 document.addEventListener("DOMContentLoaded", () => {
 const formLogin = document.getElementById("formInicioSesion");
 
